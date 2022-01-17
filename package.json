@@ -1,6 +1,6 @@
 
 {
- "homepage":"http://jiaojiaon.github.io/TTP-Assignment8",
+ "homepage":"https://jiaojiaon.github.io/TTP-Assignment8/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.3"
   },
   "scripts": {
-   "predploy": "npm run build",
+   "predeploy": "npm run build",
    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
