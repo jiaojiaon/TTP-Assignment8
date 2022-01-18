@@ -128,25 +128,26 @@ class Table extends React.Component {
     return(
         <div className="container">
             <div className="buttons">
-                <button onClick={this.addRow} >add row</button>
-                <button onClick={this.addCol} >add col</button>
-                <button onClick={this.removeRow} >remove row</button>
-                <button onClick={this.removeCol} >remove col</button>
-                <button onClick={this.clearAll} >clear all</button>
-                <button onClick={this.fillAll} >fill all</button>
-                <button onClick={this.fillUncolored} >fillUncolored</button>
-            </div>
+                <button onClick={this.addRow} >Add Rows</button>
+                <button onClick={this.addCol} >Add Columns</button>
+                <button onClick={this.removeRow} >Remove Rows</button>
+                <button onClick={this.removeCol} >Remove Columns</button>
+                <button onClick={this.clearAll} >Clear All Color</button>
+                <button onClick={this.fillAll} >Fill All Color</button>
+                <button onClick={this.fillUncolored} >Fill All Uncolored</button>
+            
 
 
             <div className="dropdown"> 
                 <select onChange={this.setColor}>
-                    <option value="">------</option>
+                    <option value="">-- Choose Color--</option>
                     <option value="black">Black</option>
                     <option value="green">Green</option>
                     <option value="blue">Blue</option>
                     <option value="red">Red</option>
                     <option value="purple">Purple</option>
                 </select>
+                </div>
             </div>
             <br></br><br></br><br></br>
 

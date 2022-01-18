@@ -1,3 +1,56 @@
+body {
+  background-color: rgb(153,199,236);
+  font-family: Arial;
+  text-align: center;
+  padding: 20px;
+  background: url("https://i.gifer.com/MCsD.gif") no-repeat center center fixed; 
+  background-size: cover;
+}
+.buttons{
+    border-radius: auto;
+    border-style: inset;  
+    margin: 20px auto;
+    font-size: 20px;
+    background-color: rgb(218,235,243) ;
+    padding: 20px;
+    width: 1000px;
+}
+
+button {
+  margin-right: 10px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(5,165,210);
+}
+label {
+  margin-left: 15px;
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+}
+.select {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: white;
+}
+
+.select::after {
+  content: "";
+  width: 0.8em;
+  height: 0.5em;
+  background-color: var(--select-arrow);
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+
 .cell {
   width: 35px;
   height: 35px;
